@@ -40,4 +40,5 @@ jobs:
     - name: Test with pytest
       run: |
         pwd
+        chmod +x ./tests/*.sh
         ./tests/run-unit-tests.sh
